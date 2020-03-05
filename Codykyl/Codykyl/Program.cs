@@ -6,10 +6,12 @@ namespace Codykyl
     {
         static void Main(string[] args)
         {
-            string name;
-            Console.WriteLine("enter your nname");
-            name = Console.ReadLine();
-            Console.WriteLine("hello {0}", name);
+            string first, last;
+            Console.WriteLine("enter your first nname");
+            first=Console.ReadLine();
+            Console.WriteLine("enter your last name");
+            last = Console.ReadLine();
+            Console.WriteLine("hello {0} {1}", first, last );
             Console.ReadLine();
         }
     }
